@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+
+/*-----------Home Page-------------*/
+.home_page {
+    background-color: black;
+    height: 100hv;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.word_logo {
+    margin: auto;
+}
+
+.word_logo a {
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+
+.nav-links {
+    margin: auto;
+    list-style-type: none;
+    display: flex; 
+}
+
+.nav-links li {
+    padding: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li img {
+    width: 70px;
+}
+
+.nav-links li a:hover {
+    color: #CD4C0E;
+}
+
+.sign_logo {
+    margin: auto;
+}
+
+.sign_logo img {
+    width: 40px;
+}
+
+.home_page_top_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_page_social_media_handles {
+    display: flex;
+    flex-direction: column;
+}
+
