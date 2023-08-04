@@ -118,7 +118,7 @@ body {
 
 
 
-/*--------------------Home Page-----------------------*/
+/*--------------------Games Site Page-----------------------*/
 .game_site_page {
     background-color: black;
     height: 100vh;
@@ -235,3 +235,24 @@ body {
     text-align: center;
     margin-right: 600px;
   }
+/*_____________________________________________________*/
+
+
+
+/*--------------------About Us Page-----------------------*/
+.about_us_page {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_us_left_flexed_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_right_top_content .carousel {
+    width: 40%;
+}
+
