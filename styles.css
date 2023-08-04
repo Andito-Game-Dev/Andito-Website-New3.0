@@ -256,3 +256,47 @@ body {
     width: 40%;
 }
 
+/*_____________________________________________________*/
+
+
+
+/*--------------------About Us Page-----------------------*/
+.contact_page {
+    background-color: black;
+    height: 100vh;
+}
+
+.contact_page_header {
+    text-align: center;
+}
+
+.contact_page_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact_page_social_media_link_handles {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_page_address {
+    display: flex;
+}
+
+.footer-bottom {
+    text-align: right;
+    margin-top: 30px;
+    margin-top: 110px;
+    padding-right: 20px;
+}
