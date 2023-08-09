@@ -451,12 +451,26 @@ body {
 
 /*--------------------Contact Us Page-----------------------*/
 .contact_page {
-    background-color: black;
+    background-image: url(./imgs/jo__Oculus_queset_2_Virtual_Reality_Headset_photorealistic_at_9_2bca878c-3088-42f2-9418-8e3bca3cba1a.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative; 
     height: 100vh;
 }
 
 .contact_page_header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(27, 28, 29, 0.7);
     text-align: center;
+    font-family: Beyno;
+    font-size: 30px;
+}
+
+.drop-message {
+  font-family: OuterSans1;
+  font-size: 16px;
+  color: #003142;
 }
 
 .contact_page_content {
@@ -464,9 +478,19 @@ body {
     justify-content: space-between;
 }
 
+.contact_page_left_content {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
 .contact_form {
     display: flex;
     flex-direction: row;
+}
+
+.form_label {
+  font-family: OuterSans1;
+  font-size: 16px;
 }
 
 .contact-form form {
@@ -474,13 +498,70 @@ body {
     gap: 10px;
 }
 
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  width: 120%;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+  border-radius: 25px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #C9823D;
+  color: #003142;
+  font-weight: bolder;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+
+.submit-button {
+  font-family: OuterSans4;
+  color: #003142;
+}
+
+.contact_page_right_content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 .contact_page_social_media_link_handles {
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
+}
+
+.contact_page_media_link {
+  font-family: OuterSans2;
+  color: #FDF8ED;
+  background-color: rgba(27, 28, 29, 0.7);
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 20px;
+  padding-right: 100px;
+  margin-bottom: 6px;
 }
 
 .contact_page_address {
     display: flex;
+    background-color: rgba(27, 28, 29, 0.7);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-top: 10px;
 }
 
 .footer-bottom {
