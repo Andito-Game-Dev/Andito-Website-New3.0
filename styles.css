@@ -3,13 +3,42 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #fff;
-    
   }
 
+  @font-face {
+    font-family: Beyno;
+    src: url(./Fonts/BEYNO/BEYNO.ttf);
+  } 
+
+  @font-face {
+    font-family: OuterSans1;
+    src: url(./Fonts/made_outer_sans/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf);
+  }
+
+  @font-face {
+    font-family: OuterSans2;
+    src: url(./Fonts/made_outer_sans/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf);
+  }
+
+  @font-face {
+    font-family: OuterSans3;
+    src: url(./Fonts/made_outer_sans/MADE\ Outer\ Sans\ Black\ PERSONAL\ USE.otf);
+  }
+
+  @font-face {
+    font-family: OuterSans4;
+    src: url(./Fonts/made_outer_sans/MADE\ Outer\ Sans\ Bold\ PERSONAL\ USE.otf);
+  }
+
+  
 
 /*----------------------Home Page-----------------------*/
 .home_page {
-    background-color: black;
+    background-image: url(./imgs/jo__ps5_joypad_photorealistic_at_90_degrees_oozing_oil_from_the_428e8dc4-099e-4d4c-a715-756de6bb09e5.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    box-sizing: border-box;
     height: 100vh;
 }
 
@@ -17,17 +46,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgba(27, 28, 29, 0.7);
+    height: 100px;
 }
 
 .word_logo {
-    margin: auto;
+  margin: auto;
 }
 
-.word_logo a {
-    font-weight: bold;
-    font-size: 28px;
-    text-decoration: none;
-    color: #fff;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.word_logo img {
+    width: 200px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 }
 
 .nav-links {
@@ -43,6 +71,7 @@ body {
 .nav-links li a {
     text-decoration: none;
     color: #fff;
+    font-family: OuterSans1;
 }
 
 .nav-links li img {
@@ -64,6 +93,12 @@ body {
 .home_page_top_content {
     display: flex;
     justify-content: space-between;
+    font-family: OuterSans2;
+    margin-top: 60px;
+}
+
+.home_page_top_content p {
+  margin-left: 100px;
 }
 
 .home_page_social_media_handles {
@@ -71,10 +106,25 @@ body {
     flex-direction: column;
 }
 
+.home_page_media_handle {
+  font-family: OuterSans2;
+  color: #FDF8ED;
+  background-color: rgba(27, 28, 29, 0.7);
+  border: none;
+  margin-bottom: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 20px;
+}
+
 .home_page_middle_content {
+    font-family: OuterSans1;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     align-items: end;
+    margin-top: 100px;
+    margin-right: 150px;
 }
 
 .carousel {
@@ -82,7 +132,8 @@ body {
     width: 20%;
     height: 30vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
 }
   
 .swiper {
@@ -104,14 +155,23 @@ body {
 }
 
 .carousel_visit_btn {
-    background-color: #AB420F;
+    font-family: OuterSans1;
+    background-color: rgba(27, 28, 29, 0.7);
+    color: #FDF8ED;
     border-radius: 20px;
     border: none;
-    font-size: 18px;
+    font-size: 12px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .game_site_header {
     text-align: center;
+    font-family: Beyno;
+    font-size: 40px;
+    margin-top: 100px;
 }
 
 /*_____________________________________________________*/
@@ -120,13 +180,30 @@ body {
 
 /*--------------------Games Site Page-----------------------*/
 .game_site_page {
-    background-color: black;
-    height: 100vh;
+  background-image: url(./imgs/jo__ps5_joypad_photorealistic_at_90_degrees_oozing_oil_from_the_f326520b-09e8-4b72-b521-6164c236d48a.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative; 
+  height: 100vh;
 }
 
 .game_site_top_content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.left_paragraph {
+  font-family: OuterSans2;
+  margin-left: 100px;
+}
+
+.right_carousel {
+  margin-right: 100px;
+}
+
+.right_carousel_subheading {
+  font-family: OuterSans3;
+  font-size: 12px;
 }
 
 .carousel-element {
@@ -212,16 +289,29 @@ body {
 
   .game_site_page_carousel_book_button {
     margin-top: 200px;
-    margin-left: 20px;
   }
 
-  .game_site_bottom_content {
-    display: flex;
-    justify-content: space-between;
+  .carousel_book_btn {
+    font-family: OuterSans1;
+    background-color: rgba(27, 28, 29, 0.7);
+    color: #FDF8ED;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .game_site_address_info {
     display: flex;
+    background-color: rgba(128, 62, 44, 0.7);
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding-top: 4px;
+    width: 180px;
+    margin-top: -4%;
   }
 
   .game_site_address_info img {
@@ -233,7 +323,13 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-right: 600px;
+    font-family: OuterSans2;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+
+  .game_site_middle_paragraphs .p2 {
+    color: #D7914B;
   }
 /*_____________________________________________________*/
 
