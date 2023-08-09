@@ -127,7 +127,7 @@ body {
     margin-right: 150px;
 }
 
-.carousel {
+.home_page_carousel {
     /*background-color: rgba(39, 40, 41, 0.7);*/
     width: 20%;
     height: 30vh;
@@ -337,26 +337,119 @@ body {
 
 /*--------------------About Us Page-----------------------*/
 .about_us_page {
-    background-color: black;
+    background-image: url(./imgs/jo__ps5_joypad_photorealistic_at_90_degrees_oozing_oil_from_the_5de75d64-5002-46ec-86c5-5cf12377679e.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative; 
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about_us_left_flexed_content {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    margin-left: 100px;
 }
 
-.about_us_right_top_content .carousel {
-    width: 40%;
+.about_us_header {
+  font-family: Beyno;
+  font-size: 30px;
 }
+
+.about_us_subheading {
+  font-family: Beyno;
+  font-size: 15px;
+}
+
+.about_us_left_flexed_content p {
+  font-family: OuterSans2;
+  font-size: 14px;
+  width: 25%;
+}
+
+.about_us_social_media_link_handles {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.media_link_handle {
+  font-family: OuterSans1;
+  background-color: rgba(27, 28, 29, 0.7);
+  color: #FDF8ED;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px; 
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 4px;
+}
+
+.about_us_right_flexed_content {
+  margin-top: 8%; 
+  width: 30%;
+  
+}
+
+.about_us_carousel_subheading {
+  font-family: OuterSans1;
+  font-size: 14px;
+}
+
+.about_us_right_bottom_content {
+  font-family: OuterSans2;
+  font-size: 14px;
+  width: 50%;
+}
+
+.about_us_right_bottom_content {
+  margin-left: 100px;
+}
+
+.about_us_sponsor_btn {
+  font-family: Beyno;
+  font-size: 18px;
+  background-color: rgba(228,178,105, 0.7);
+  color: #FDF8ED;
+  border-radius: 20px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+.about_us_page_carousel {
+  /*background-color: rgba(39, 40, 41, 0.7);*/
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about_us_page_carousel .swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.about_us_page_carousel .swiper-slide img {
+  width: 100%;
+  height: 20vh;
+}
+
+
 
 /*_____________________________________________________*/
 
 
 
-/*--------------------About Us Page-----------------------*/
+/*--------------------Contact Us Page-----------------------*/
 .contact_page {
     background-color: black;
     height: 100vh;
